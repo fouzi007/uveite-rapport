@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+body  {
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+.app-bg {
+  background-image: url('../img/background.png');
+  background-position: center;
+  background-color: #AF1F5F !important;
+}
+
+.mt {
+  margin-top: 20px !important;
+}
+
+.hero.is-light .tabs.is-boxed li.is-active a, .hero.is-light .tabs.is-boxed li.is-active a:hover, .hero.is-light .tabs.is-toggle li.is-active a, .hero.is-light .tabs.is-toggle li.is-active a:hover {
+    background-color: #AF1F5F;
+    border-color: #AF1F5F;
+    color: white;
+}
